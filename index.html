@@ -13,27 +13,23 @@
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="assets/images/favicon2.png"
-    />
+      href="assets/images/favicon2.png"/>
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="assets/images/favicon2.png"
-    />
+      href="assets/images/favicon2.png"/>
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="assets/images/favicon3.png"
-    />
+      href="assets/images/favicon3.png"/>
     <!-- Bootstrap 5 CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
-    />
+      crossorigin="anonymous"/>
   </head>
   <!-- Classes on body set to work with mt-auto on footer to ensure it always stays at the bottom of the page -->
   <body class="d-flex flex-column min-vh-100">
@@ -50,22 +46,19 @@
           data-bs-target="#navbarNav"
           aria-controls="navbarNav"
           aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+          aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >Home</a
-              >
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="services.html">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="services.html">Get help now</a>
+              <a class="nav-link" href="#">Get help now</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
@@ -93,7 +86,7 @@
                         <div class="carousel-item active">
                             <img src="assets/images/Mental health care sketch diagram _ Free Photo_files/caring-african-american-woman-consoling-sad-woman-before-group-therapy-meeting_637285-10049.jpg" class="d-block w-100" alt="In the journey through life, everyone encounters challenges, and it's essential to remember that seeking help is a sign of strength, not weakness. A supportive community can make a profound difference in fostering mental wellness.">
                             </div>
-          <div class="carousel-item">
+                   <div class="carousel-item">
                             <img src="assets/images/Mental health care sketch diagram _ Free Photo_files/close-up-text-wooden-table_1048944-11542320.jpg" class="d-block w-100"
                                 alt="Mental health awareness is about creating an environment where individuals feel safe to share their struggles without fear of judgment">
                         </div>
@@ -131,16 +124,69 @@
     <!-- main element to hold all key sections of the home page. It is not part of the grid structure -->
     <main>
       <!-- Services section -->
-      <section class="container">
+      <section id="services" class="container section">
         <div class="row">
-          <div class="col-12">Services section heading</div>
-          <div class="col-12 col-md-6 col-xl-3">Services card</div>
-          <div class="col-12 col-md-6 col-xl-3">Services card</div>
-          <div class="col-12 col-md-6 col-xl-3">Services card</div>
-          <div class="col-12 col-md-6 col-xl-3">Services card</div>
-        </div>
-      </section>
+          <div class="col-12 text-center">
+            <h2 class="display-6">Our Services</h2>
+            
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+                    <div class="card">
+                        <img src="assets/images/Mental health care sketch diagram _ Free Photo_files/human-profile-with-nature-mental-health-earth-day_1001450-4614.jpg" class="card-img-top"
+                            alt="Mental health 1">
+                        <div class="card-body">
+                            <h3 class="card-title sub-heading-color">Helplines and Crisis Support</h3>
+                            <p class="card-text">
+                                Confidential phone lines, such as a suicide and crisis hotline or similar services in the UK, offer immediate help in an emergency.
+                            </p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="card">
+                        <img src="assets/images/Mental health care sketch diagram _ Free Photo_files/imposter-syndrome-masks-with-happy-sad-expressionsbipolar-disorder-fake-faces-emotions_101179-1794.jpg" class="card-img-top"
+                            alt="Board games stacked in bookshelves, a man can be seen browsing the shelves" />
+                        <div class="card-body">
+                            <!-- bootstrap cards come as h5 by default, changed to h3 to fit project heading hierarchy -->
+                            <h3 class="card-title sub-heading-color">Community Mental Health Teams (CMHTs)</h3>
+                            <p class="card-text">
+                                These teams provide ongoing assessment, treatment, and support in community settings, coordinating care through various professionals like nurses, psychologists, and social workers.
+                            </p>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="card">
+                        <img src="assets/images/Mental health care sketch diagram _ Free Photo_files/large-decorative-bouquet-made-green-leaves-moss-hangs-man-s-head_8353-7837.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title sub-heading-color">Talking Therapies/Counselling</h3>
+                            <p class="card-text">
+                               Services available through healthcare providers and other organisations that provide free, confidential access to evidence-based psychological therapies, including one-on-one and group sessions.
+                            </p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="card">
+                        <img src="assets/images/Mental health care sketch diagram _ Free Photo_files/mental-health-awareness-concept_52683-37916.jpg" class="card-img-top"
+                            alt="A kids party being held at Boardwalk Games">
+                        <div class="card-body">
+                            <h3 class="card-title sub-heading-color">Workplace and School Programs</h3>
+                            <p class="card-text">
+                                Initiatives designed to build mental health literacy, create supportive cultures, and provide resources for employees and students to manage stress and seek help
+                            </p>
+                        </div>
+                        
+                        </div>
+                      </div>
+            </div>
+        </section>
     </main>
+          
+        
 
     <!-- Footer / contact section -->
     <!-- mt-auto added to push footer to the bottom of the page -->
