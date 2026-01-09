@@ -24,14 +24,81 @@
 
 <body class="d-flex flex-column min-vh-100">
     <!-- Navigation -->
-    <div>Navigation</div>
+    <nav id="navbar" class="navbar navbar-expand-lg" data-bs-theme="dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img src="assets/images/logo.jpeg" alt="Mental Health Logo" class="logo">
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+        
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item ms-auto">
+              <a class="nav-link active" aria-current="page" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Get help now</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 <body>
     <!-- Header with carousel -->
-    <header class="container">
-        <div class="row">
-            <div class="col-12 col-xl-6">Mental Health Awarness intro text section</div>
-            <div class="col-12 col-xl-6">Carousel</div>
+    <header id="header" class="container section">
+      <div class="row">
+        <div class="col-12 col-xl-6 text-center text-xl-start">
+            <h1 class="display-3">Developing Community-based Mental Health Services</h1>
+            <p class="lead display-6 sub-heading-color">Path to Healing from Addiction.</p>
+            <p class="my-4">Mental health awareness initiatives and services are crucial efforts dedicated to educating the public, reducing the persistent stigma surrounding mental illness, and ensuring that individuals in need know that help is available. The primary goal is to foster open, non-judgmental conversations, create supportive communities in workplaces, schools, and social circles, and encourage early intervention before conditions escalate into crises.</p>
         </div>
+        <div class="col-12 col-xl-6">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/images/Mental health care sketch diagram _ Free Photo_files/gradient-background-world-mental-health-day_23-2150708748.jpg" class="d-block w-100" 
+                            alt="Mental health awareness services focus on promoting overall emotional, psychological.">
+                            </div>
+                         <div class="carousel-item">
+                            <img src="assets/images/Mental health care sketch diagram _ Free Photo_files/hand-drawn-mental-health-instagram-stories-collection_23-2149053447.jpg" class="d-block w-100"
+                                alt="These services are crucial because they create environments where individuals feel comfortable discussing their mental health openly.">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/Mental health care sketch diagram _ Free Photo_files/hand-drawn-world-mental-health-day_52683-44659.jpg" class="d-block w-100"
+                                alt="Services which encourages early intervention and access to professional support before issues escalate into crises.">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/Mental health care sketch diagram _ Free Photo_files/human-profile-with-nature-mental-health-earth-day_1001450-4614.jpg" class="d-block w-100"
+                                alt="By educating the public and healthcare providers on common mental health problems and coping strategies, awareness initiatives help people manage their own well-being and support others effectively. ">
+                        </div>
+                       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                    </div>                  
+                </div>
+      </div>
     </header>
 
     <!-- main element to hold all key sections of the service html page,
